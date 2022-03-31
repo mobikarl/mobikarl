@@ -1,0 +1,37 @@
+# 修改mkdocs配置，可参照 https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
+site_name: hello
+docs_dir: docs
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    # 页面主色调
+    primary: indigo
+    # 设置网站语言
+    language: zh
+  features:
+    # 即时加载，不需要刷新页面
+    - navigation.instant
+    # 启用顶部导航栏
+    - navigation.tabs
+    # 锁定顶部导航栏
+    # - navigation.tabs.sticky
+    # 配置导航栏不分组
+    # - navigation.sections
+    # 添加返回顶部按钮
+    - navigation.top
+    # - navigation.indexes
+    # 添加内容标签
+    - content.tabs.link
+    - navigation.instant
+markdown_extensions:
+  # 添加代码块语法高亮
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
+  # 添加表格
+  - tables
+  - pymdownx.tabbed:
+      alternate_style: true
