@@ -1,0 +1,15 @@
+pages: # 发布pages的job名称必须为pages
+  stage: deploy
+  image:
+    name: squidfunk/mkdocs-material
+    entrypoint: [""]
+  only:
+    - master
+  retry: 1
+  script:
+    - mkdocs build --site-dir public
+  timeout: 300 seconds
+  artifacts:
+    paths:
+      - public
+    expire_in: 60 seconds
