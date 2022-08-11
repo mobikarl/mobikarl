@@ -4,7 +4,7 @@ hide:
 ---
 
 ## hello
-Hello world
+hello world
 
 ## vscode快捷键
 | 快捷键                  | 说明                  |
