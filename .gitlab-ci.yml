@@ -6,8 +6,6 @@ pages:
   image:
     name: squidfunk/mkdocs-material
     entrypoint: [""]
-  only:
-    - master
   retry: 1
   script:
     - mkdocs build --site-dir public
