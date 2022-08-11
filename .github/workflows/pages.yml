@@ -3,10 +3,6 @@ on:
   push:
     branches:
       - master
-      - main
-    paths:
-      - "docs/**"
-      - "mkdocs.yml"
 jobs:
   deploy:
     runs-on: ubuntu-latest
