@@ -15,7 +15,6 @@ jobs:
     steps:
       # 在$GITHUB_WORKSPACE目录下检出git仓库，供job访问使用
       - uses: actions/checkout@v2
-
       - name: sync
         run: |
           git remote -v
