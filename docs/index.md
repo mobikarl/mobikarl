@@ -27,3 +27,4 @@ hello world
 | `Ctrl + \`              | 拆分编辑器并右移      |
 | `Ctrl + =/-`            | 放大/缩小编辑器       |
 | `Ctrl + Home/End`       | 跳到文件的开头/结尾   |
+
