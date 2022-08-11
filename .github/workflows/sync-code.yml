@@ -4,8 +4,7 @@ on:
   push:
     branches:
       - master
-    tags:
-      - "*"
+      - main
   # web页面手动触发action
   workflow_dispatch:
 
