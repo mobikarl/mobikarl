@@ -1,7 +1,7 @@
 stages:
   - deploy
 
-pages: # 发布pages的job名称必须为pages
+pages:
   stage: deploy
   image:
     name: squidfunk/mkdocs-material
