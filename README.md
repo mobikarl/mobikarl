@@ -3,4 +3,4 @@
 
 I'm pretty lazy!
 
-- 🌱 I’m currently learning TLA+, distributed system, golang
+- 🌱 I’m currently learning TLA+, distributed system, golang.
