@@ -1,0 +1,52 @@
+.md-grid {
+    max-width: 1440px;
+}
+
+.md-content h1 {
+    font-size: 2em;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    color: rgb(0 0 0 / 87%);
+    line-height: 1.25;
+    border-bottom: 1px solid hsla(210, 18%, 87%, 1);
+    margin: 0.67em 0;
+    padding-bottom: 0.3em;
+}
+
+.md-content h2 {
+    font-weight: 600;
+    padding-bottom: 0.3em;
+    font-size: 1.5em;
+    /* border-bottom: 1px solid hsla(210, 18%, 87%, 1); */
+}
+
+.md-content h3 {
+    font-weight: 600;
+    font-size: 1.25em;
+}
+
+.md-main__inner {
+    margin-top: 0;
+}
+
+.md-typeset table:not([class]) {
+    border-right: 0;
+}
+
+.md-typeset table:not([class]) td {
+    border-right: 0.05rem solid rgba(0, 0, 0, .12);
+}
+
+.md-typeset table:not([class]) th {
+    border-right: 0.05rem solid rgba(0, 0, 0, .12);
+}
+
+.md-typeset table:not([class]) tr:nth-child(2n) {
+    background-color: #f6f8fa;
+}
+
+.md-typeset table:not([class]) tr:hover {
+    background-color: none;
+    background-color: transparent;
+}
