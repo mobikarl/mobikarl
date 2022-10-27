@@ -1,0 +1,7 @@
+services:
+  webapp:
+    build: .
+    image: webapp:v1
+    container_name: webapp
+    ports:
+      - 80:80
