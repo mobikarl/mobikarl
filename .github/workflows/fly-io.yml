@@ -1,4 +1,4 @@
-name: fly deploy
+name: fly-deploy
 on:
   push:
     paths:
