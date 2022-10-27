@@ -1,6 +1,9 @@
 name: cloudflare-pages
 
-on: [push]
+on:
+  push:
+    paths:
+      - "docs/**"
 
 jobs:
   publish:

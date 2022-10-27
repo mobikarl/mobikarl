@@ -1,12 +1,8 @@
 name: sync-code
 on:
-  # master分支发生变更时触发
   push:
-    branches:
-      - master
-      - main
-  # web页面手动触发action
-  workflow_dispatch:
+    paths:
+      - "docs/**"
 
 jobs:
   gitlab:
