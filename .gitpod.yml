@@ -1,0 +1,17 @@
+# 启动时执行的命令
+tasks:
+  - name: serve
+    before: pip install -r requirements.txt
+    command: mkdocs serve
+
+# 启动后对外暴露端口，并打开浏览器
+ports:
+  - port: 8000
+    onOpen: open-browser
+    name: notes
+    description: notes Preview
+
+# 添加vscode插件
+vscode:
+  extensions:
+    - yzhang.markdown-all-in-one
