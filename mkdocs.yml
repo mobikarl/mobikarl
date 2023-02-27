@@ -1,8 +1,6 @@
 # 修改mkdocs配置，可参照 https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
 site_name: hello
 docs_dir: docs
-repo_url: https://github.com/mobikarl/mobikarl
-repo_name: mobikarl/mobikarl
 theme:
   name: material
   language: zh
